@@ -5,8 +5,8 @@ author: Jake Zimmerman
 date: \today
 fontsize: 12pt
 # Comment or change these if you don't have these fonts installed
-mainfont: "Palatino"
-monofont: "Menlo"
+mainfont: Palatino
+monofont: Menlo
 newtxmathoptions:
 - cmintegrals
 - cmbraces
