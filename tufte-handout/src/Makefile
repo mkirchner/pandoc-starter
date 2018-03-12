@@ -28,6 +28,7 @@ TARGET=sample
 PANDOC_FLAGS =\
 	--template template.tex \
 	-f markdown+tex_math_single_backslash \
+	--filter pandoc-citeproc \
 	-t latex \
 
 LATEX_FLAGS = \
